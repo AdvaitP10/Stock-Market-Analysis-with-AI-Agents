@@ -78,5 +78,5 @@ if submitted:
         status.update(label="✅ Analysis Completed!",
                       state="complete", expanded=False)
 
-    st.subheader("Your Detailed Analysis for {Company}:", anchor=False, divider="rainbow")
+    st.subheader(f"Your Detailed Analysis for {Company}:", anchor=False, divider="rainbow")
     st.markdown(result)

@@ -20,7 +20,7 @@ load_dotenv()
 #                            temperature=0.5,
 #                            google_api_key=os.getenv("GOOGLE_API_KEY"))
 
-llm = ChatGroq(temperature=0, groq_api_key=os.getenv("GROQ_API_KEY"), model_name="llama3-groq-70b-8192-tool-use-preview")
+llm = ChatGroq(temperature=0, groq_api_key=os.getenv("GROQ_API_KEY"), model_name="llama3-70b-8192")
 
 class StockAnalysisAgents():
   def financial_analyst(self):
